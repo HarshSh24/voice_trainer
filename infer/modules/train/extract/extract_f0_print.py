@@ -1,6 +1,8 @@
 import os
 import sys
 import traceback
+import sys 
+sys.path.append("/content/fairseq")
 
 import parselmouth
 
