@@ -1,5 +1,6 @@
 import os
-import sys 
+import sys
+
 sys.path.append("/content/fairseq")
 from fairseq import checkpoint_utils
 

@@ -1,7 +1,8 @@
 import os
 import sys
 import traceback
-import sys 
+import sys
+
 sys.path.append("/content/fairseq")
 
 os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
