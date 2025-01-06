@@ -1,7 +1,8 @@
 import os
 
 from fairseq import checkpoint_utils
-
+import sys 
+sys.path.append("/content/fairseq")
 
 def get_index_path_from_model(sid):
     return next(
